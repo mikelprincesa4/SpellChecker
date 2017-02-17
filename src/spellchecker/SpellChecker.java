@@ -25,7 +25,7 @@ public class SpellChecker extends Application {
     public static ArrayList<String> incorrectSpell  = new ArrayList();
     public static int 				numIncorrect 	= 0;
     public static int				numCorrect   	= 0;
-    public static File 				f1 = new File("spellcheckdictionary.txt");
+    public static File 				f1 = new File("fulldictionary1.txt");
     public static File 				f2; 
     public static Scene 			scene;
     public static StackPane			root;
