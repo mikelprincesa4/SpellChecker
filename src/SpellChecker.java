@@ -32,7 +32,7 @@ public class SpellChecker extends Application {
     
     @Override
     public void start(Stage primaryStage) {
-        root = new StackPane();
+    	root = new StackPane();
         root.getChildren().add(gui);
         root.setId("root");
         
@@ -67,14 +67,14 @@ public class SpellChecker extends Application {
         
         while(stdin.hasNext()){
             String s;
-            s = stdin.next();
+            s = stdin.next(); 
             
             dictionary.add(s);
         }
     }
     
     public static void readWords() throws FileNotFoundException{
-        rawText.clear();
+    	rawText.clear();
         
         f2 = new File(GUI.fileName);
         Scanner stdin = new Scanner(f2);
